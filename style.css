@@ -111,6 +111,15 @@ section p{
     max-width:900px;
     margin:auto;
 }
+.profile-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #2563eb;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(o,0,0,0.2);
+}
 #qualifications{
     background:#eef4ff;
 }

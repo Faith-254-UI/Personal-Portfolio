@@ -147,20 +147,16 @@ section p {
     font-size: 18px;
 }
 
-#skills {
-    background: white;
-}
-
-#skills ul {
+.skills-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 20px;
-    list-style: none;
     margin-top: 40px;
 }
 
-#skills li {
+.skill-card {
     background: #2563eb;
     color: white;
     padding: 15px 30px;
@@ -169,11 +165,10 @@ section p {
     transition: 0.3s;
 }
 
-#skills li:hover {
-    transform: translateY(-5px);
+.skill-card:hover {
     background: #1f2937;
+    transform: translateY(-5px);
 }
-
 #projects {
     background: #eef4ff;
 }

@@ -35,7 +35,13 @@ body {
 .nav-links {
     list-style: none;
     display: flex;
+    flex-direction: row;
+    align-items: center;
     gap: 30px;
+}
+
+.nav-links li {
+    display: inline-block;
 }
 
 .nav-links a {
@@ -241,14 +247,19 @@ footer {
 
 @media (max-width: 768px) {
     .navbar {
-        flex-direction: column;
-        gap: 20px;
+        padding: 15px 4%;
+    }
+
+    .logo {
+        font-size: 22px;
     }
 
     .nav-links {
-        flex-direction: column;
-        text-align: center;
-        gap: 15px;
+        gap: 12px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
     }
 
     .hero {
@@ -281,5 +292,13 @@ footer {
 
     section h2 {
         font-size: 32px;
+    }
+
+    .skills-container {
+        gap: 15px;
+    }
+
+    .skill-card {
+        padding: 12px 20px;
     }
 }
